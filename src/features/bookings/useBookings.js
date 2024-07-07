@@ -18,6 +18,7 @@ export function useBookings() {
   const sortByRaw = searchParams.get("sortBy") || "startDate-desc";
   const [field, direction] = sortByRaw.split("-");
   const sortBy = { field, direction };
+  // HINT: every time that you sort try to set the page variable to 1 to fix the bug
 
   // PAGINATION
   const page = !searchParams.get("page") ? 1 : Number(searchParams.get("page"));
