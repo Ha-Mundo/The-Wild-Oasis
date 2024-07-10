@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 const StyledFormRow = styled.div`
+  // css for FormRovVertical
   //display: flex;
   //flex-direction: column;
   //justify-content: flex-start;
   //gap: 0.8rem;
+
   display: grid;
   align-items: center;
   grid-template-columns: 18rem 1fr 1.2fr;
