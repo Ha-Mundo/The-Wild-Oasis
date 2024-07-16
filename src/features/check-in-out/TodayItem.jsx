@@ -21,6 +21,10 @@ const StyledTodayItem = styled.li`
   }
 `;
 
+const NoFlag = styled.span`
+  text-align: center;
+`;
+
 const Guest = styled.div`
   font-weight: 500;
 `;
@@ -32,8 +36,12 @@ function TodayItem({ activity }) {
     <StyledTodayItem>
       {status === "unconfirmed" && <Tag type="green">Arriving</Tag>}
       {status === "checked-in" && <Tag type="blue">Departing</Tag>}
+      {!guests.countryFlag ? (
+        <NoFlag>&mdash;</NoFlag>
+      ) : (
+        <Flag src={guests.countryFlag} alt={`Flag of ${guests.country}`} />
+      )}
 
-      <Flag src={guests.countryFlag} alt={`Flag of ${guests.country}`} />
       <Guest>{guests.fullName}</Guest>
       <div>{numNights} nights</div>
 
