@@ -1,6 +1,6 @@
 # 👋Introduction
 
-The Wild Oasis is a beautiful internal hotel management application system. This application is designed to manage hotel operations, including sales statistics, cabin management, user management, booking management, and various customization options. And so much more!
+The Wild Oasis is an internal hotel management application system. This application is designed to manage hotel operations, including sales statistics, cabin management, user management, booking management, and various customization options. And so much more!
 
 ## 🌟App Requirements
 
