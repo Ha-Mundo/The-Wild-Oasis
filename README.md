@@ -149,5 +149,3 @@ To set up The Wild Oasis project locally, follow the instructions below.
    ```
 
 ## 🚀Live Demo
-
-https://the-wild-oasis-beta-01.netlify.app/login
