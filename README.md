@@ -109,7 +109,7 @@ To set up The Wild Oasis project locally, follow the instructions below.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Ha-Mundo/Fast-Pizza-App.git
+   git clone https://github.com/Ha-Mundo/The-Wild-Oasis.git
    ```
 
 2. Install the dependencies:
