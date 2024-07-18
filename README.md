@@ -118,6 +118,13 @@ To set up The Wild Oasis project locally, follow the instructions below.
    npm install
    ```
 
+ <!-- 3. Rename the `.env.example` file to `.env` and modify the following:
+
+      ```bash
+        VITE_SUPABASE_URL=your-supabase-url
+        VITE_SUPABASE_KEY=your-supabase-key
+      ``` -->
+
 ## 🔧Usage
 
 1. Run the development server:
@@ -143,4 +150,4 @@ To set up The Wild Oasis project locally, follow the instructions below.
 
 ## 🚀Live Demo
 
-### https://the-wild-oasis-beta-01.vercel.app/dashboard
+### https://the-wild-oasis-beta-jet.vercel.app/login
